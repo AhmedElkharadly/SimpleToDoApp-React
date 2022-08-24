@@ -1,0 +1,31 @@
+.listaya{
+    /* padding-top: 20px; */
+    /* color: black !important;
+    background-color: blue; */
+    width: 1000px;
+    /* height: 200px; */
+    display: grid;
+    grid-template-columns: 8fr 2fr;
+    justify-content: space-evenly   ;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+.listBtns{
+    display: flex;
+    flex-direction: row;
+}
+
+.listaya>div>button{
+    padding: 10px;
+    font-size: 15px;
+    width: fit-content;
+    border-radius: 10px;
+}
+.listaya>div>button:hover{
+    background-color: rgba(190, 173, 173, 0.267);
+}
+

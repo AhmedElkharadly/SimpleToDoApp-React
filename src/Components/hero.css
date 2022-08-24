@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.hero{
+    
+    /* padding-top: 200px; */
+    height: 100vh;
+    background-image: url(../../public/background.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.hero>.cont>h1,label{
+    font-size: 35px;
+    text-align: left;
+    padding-top: 15px;
+    /* padding-left: 200px; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* .hero>.cont>h2{
+    padding-left: 120px;
+} */
+button{
+    margin: 5px;
+    width: 130px;
+    padding: 10px;
+    font-size: larger;
+    border: 1px solid;
+    margin-top: 10  px;
+    border-radius: 20px;
+    /* margin-left: 290px; */
+    background-color: transparent;
+    
+}
+button:hover{
+    cursor: pointer;
+    font-size: larger;
+    /* width: 140px;
+    height: 60px; */
+    /* margin-top: 48px; */
+    /* margin-left: 265px; */
+    background-color:rgba(134, 134, 134, 0.651) ;
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px 0 0 50px ;
+}
+
+.toDoInput{
+    /* letter-spacing: 2px; */
+    width: 550px  ;
+    height: 30px;
+    margin: 5px;
+    margin-left: 0;
+    text-align: left;
+    padding: 5px;
+    border-radius: 5px;
+    outline-style:hidden;
+    /* border: 1px solid rgb(144, 149, 150); */
+    display: flex;
+    color: black;
+    font-size: 20px;
+}
+    
+.toDoInput:focus{
+    outline-color: rgba(85, 85, 85, 0.938);
+    background-color: rgba(248, 243, 236, 0.932);
+    /* border: none; */
+}
